@@ -1,0 +1,2 @@
+"""Podcast / Video Summarizer with Auto-Chaptering."""
+__version__ = "1.0.0"

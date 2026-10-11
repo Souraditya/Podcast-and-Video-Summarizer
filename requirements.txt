@@ -1,0 +1,19 @@
+# --- pipeline
+yt-dlp[default]>=2025.1.1
+faster-whisper>=1.0
+sentence-transformers>=2.7
+numpy
+anthropic>=0.40
+openai>=1.0                # needed for PODSUM_LLM_PROVIDER=openai (Gemini, Groq, local Ollama, etc.) and by the tests
+imageio-ffmpeg             # bundled ffmpeg fallback if ffmpeg is not on PATH
+matplotlib                 # similarity-curve plot (optional; the run never fails without it)
+# --- evaluation
+jiwer
+rouge-score
+# --- tests
+pytest
+# --- web app (deferred; not needed for the pipeline)
+fastapi
+uvicorn
+python-multipart
+httpx

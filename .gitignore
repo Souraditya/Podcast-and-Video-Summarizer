@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+cookies.json
+cookies.txt
+*cookies*.txt
+.env
